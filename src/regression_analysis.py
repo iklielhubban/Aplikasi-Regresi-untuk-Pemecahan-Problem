@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-import os
 
 def load_data(file_path):
     """
@@ -70,10 +69,6 @@ def plot_regression_results(X_test, y_test, y_pred, title, save_path=None):
     plt.show()
 
 def main():
-    # Create results directory if it doesn't exist
-    if not os.path.exists('results'):
-        os.makedirs('results')
-
     # Load dataset
     data = load_data('data/student_performance.csv')
 
