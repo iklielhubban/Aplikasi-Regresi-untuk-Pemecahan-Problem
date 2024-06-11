@@ -7,17 +7,19 @@ Repositori ini berisi implementasi model regresi linear dan polynomial untuk men
 Aplikasi-Regresi-untuk-Pemecahan-Problem/
 │
 ├── data/
-│ └── student_performance.csv # Dataset dari Kaggle
+│   └── student_performance.csv    # Dataset dari Kaggle
 │
 ├── src/
-│ └── regression_analysis.py # Kode sumber Python untuk analisis regresi
+│   └── regression_analysis.py      # Kode sumber Python untuk analisis regresi
 │
 ├── testing/
-│ └── test_regression_analysis.py # Kode sumber Python untuk testing
+│   └── test_regression_analysis.py # Kode sumber Python untuk testing
 │
-├── results/ # Folder untuk menyimpan hasil plot
+├── results/                        # Folder untuk menyimpan hasil plot
 │
-├── README.md # Deskripsi singkat tentang repositori
+├── README.md                       # Deskripsi singkat tentang proyek
+│
+└── LICENSE                         # Lisensi proyek (opsional)
 
 ## Cara Menjalankan
 
